@@ -1,5 +1,6 @@
 import BtmHeader from "./component/header/BtmHeader"
 import TopHeader from "./component/header/TopHeader"
+import Home from "./page/home/Home"
 
 
 function App() {
@@ -7,8 +8,13 @@ function App() {
 
   return (
     <>
-      <TopHeader/>
-      <BtmHeader/>
+      <header>
+        <TopHeader/>
+        <BtmHeader/>
+      </header>
+
+
+      <Home/>
     </>
   )
 }
